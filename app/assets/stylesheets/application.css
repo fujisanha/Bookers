@@ -20,23 +20,39 @@
  }
  
  body {
-   margin: 40px;
+   margin: 30px;
  }
 
-h1 {
-  margin: 25px 0;
-}
+ li {
+   list-style: none;
+ }
 
-li {
-  list-style: none;
-}
+ a {
+   color: #666;
+ }
+ 
+ h2 {
+   margin-bottom: 10px;
+ }
+ 
+ h5 {
+   font-weight: normal;
+ }
+ 
+ .top-title {
+   margin: 25px 0;
+ }
 
-p {
-  font-size: 12px;
-  line-height: 60px;
-  margin: 0 30px;
-}
-
-a {
-  color: #666;
-}
+ .top-text {
+   font-size: 12px;
+   line-height: 60px;
+   margin: 0 30px;
+ }
+ 
+ .label-title {
+   margin-bottom: 10px;
+ }
+ 
+ .label-body {
+   margin-bottom: 10px;
+ }
