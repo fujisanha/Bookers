@@ -97,3 +97,10 @@
  .show-text-bottom {
      margin-bottom: 10px;
  }
+ 
+ 
+ /*フラッシュメッセージ*/
+ 
+ .flash-message {
+     color: green;
+ }
