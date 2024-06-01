@@ -23,12 +23,13 @@
    margin: 30px;
  }
 
- li {
-   list-style: none;
- }
-
  a {
-   color: #666;
+   color: black;
+ }
+ 
+ a:hover {
+     background-color: black;
+     color: white;
  }
  
  h2 {
@@ -37,6 +38,28 @@
  
  h5 {
    font-weight: normal;
+ }
+ 
+ 
+  /*共通クラス*/
+ 
+ .label-title {
+   margin-bottom: 10px;
+ }
+ 
+ .label-body {
+   margin-bottom: 10px;
+ }
+ 
+.form-buttom {
+    padding-bottom: 10px;
+}
+ 
+ 
+ /*トップページ*/
+ 
+ li {
+   list-style: none;
  }
  
  .top-title {
@@ -49,14 +72,28 @@
    margin: 0 30px;
  }
  
- .label-title {
-   margin-bottom: 10px;
+ 
+ /*一覧ページ*/
+ 
+ .th-1 {
+     width: 200px;
  }
  
- .label-body {
-   margin-bottom: 10px;
+ .th-2 {
+     width: 380px;
  }
+ 
+ table {
+     border-spacing: 10px;
+ }
+ 
+ 
+ /*詳細ページ*/
  
  .show-text {
-    font-size: 13px;
+     padding: 10px;
+ }
+ 
+ .show-text-bottom {
+     margin-bottom: 10px;
  }

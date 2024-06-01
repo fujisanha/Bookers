@@ -1,6 +1,7 @@
 <body>
-  <p><strong>Title:</strong><%= @book.title %></p>
-  <p><strong>Body:</strong><%= @book.body %></p>
+  <p class="show-text"><strong>Title:</strong><%= @book.title %></p>
+  <p class="show-text show-text-bottom"><strong>Body:</strong><%= @book.body %></p>
   <%= link_to "Edit", edit_book_path %>
+  |
   <%= link_to "Back", '/books' %>
 </body>
