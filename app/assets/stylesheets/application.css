@@ -24,7 +24,7 @@
  }
 
  a {
-   color: black;
+   color: gray;
  }
  
  a:hover {
@@ -58,7 +58,7 @@
  
  /*トップページ*/
  
- li {
+ .top-list {
    list-style: none;
  }
  
@@ -103,4 +103,11 @@
  
  .flash-message {
      color: green;
+ }
+ 
+ 
+ /*エラーメッセージ*/
+ 
+ .error-message {
+     color: red;
  }
